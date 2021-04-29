@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTVG</title>
+    
+    <!-- Icon Page -->
+    <link rel="shortcut icon" href="img/logo1.jpg" type="image/x-icon">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- HOVER CSS -->
+    <link rel="stylesheet" href="css/hover.css">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h2>NTVG</h2>
+            </div>
+
+            <div class="menu">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu-movil">
+                <ul>
+                    <li class="hvr-underline-from-center"><a href="http://notevagustar.com/" target="_blank">Ntvg</a></li>
+                    <li class="hvr-underline-from-center"><a href="https://www.facebook.com/notevagustaroficial/" target="_blank">Facebook</a></li>
+                    <li class="hvr-underline-from-center"><a href="https://www.instagram.com/notevagustaroficial" target="_blank">Instagram</a></li>
+                    <li class="hvr-underline-from-center"><a href="https://twitter.com/ntvgoficial/" target="_blank">Twitter</a></li>
+                    <li class="hvr-underline-from-center"><a href="https://www.youtube.com/channel/UCe5tgyOlUWikwiYHEQ02L2Q" target="_blank">Youtube</a></li>
+                </ul>
+        </div>
+
+        <div class="contenido">
+            <div class="imagen">
+                <img src="img/16.jpg" alt="Luz" class="frente">
+                <img src="img/16.jpg" alt="Luz" class="atras">
+            </div>
+
+            <div class="btn-flecha">
+                <a href="#reproductor">
+                    <i class="fas fa-arrow-circle-down"></i>
+                </a> 
+            </div>
+            
+            <div class="texto">
+                <div class="columna columna1">
+                    <span data-src="img/16.jpg" id="luz" class="activo">Luz <small>(Estreno 07/05)</small></span>
+                    <span data-src="img/15.jpg">Otras canciones latinoamerica</span>
+                    <span data-src="img/14.jpg">Otras canciones</span>
+                    <span data-src="img/13.jpg">Suenan las alarmas</span>
+                    <span data-src="img/11b.jpg">El tiempo otra vez avanza</span>
+                    <span data-src="img/12.jpg">En vivo costanera sur</span>
+                    <span data-src="img/11a.jpg">El verano siguiente</span>
+                    <span data-src="img/10.jpg">El calor del pleno invierno</span>
+                    <span data-src="img/09.jpg">Publico</span>
+                </div>
+
+                <div class="columna columna2">
+                    <span data-src="img/08b.jpg">Por lo menos hoy</span>
+                    <span data-src="img/08a.jpg">Solo de noche</span>
+                    <span data-src="img/07.jpg">El camino mas largo</span>
+                    <span data-src="img/06.jpg">Tan</span>
+                    <span data-src="img/05.jpg">Todo es tan inflamable</span>
+                    <span data-src="img/04.jpg">Mvd</span>
+                    <span data-src="img/03.jpg">Aunque cueste ver el sol</span>
+                    <span data-src="img/02.jpg">Este fuerte viento que sopla</span>
+                    <span data-src="img/01.jpg" id="soloDeNoche">Solo de noche</span>
+                </div>
+                <div class="boton">
+                    <a id="reproducir" href="#reproductor">Ver canciones</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reproductor">
+        <div class="proximamente"><h2> Próximamente </h2></div>
+    </div>
+
+    <footer class="footer">
+        <p>Created by Leo Ss.</p>
+    </footer>
+    
+    <!-- SWEETALERT -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- FONTAWESOME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
