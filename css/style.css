@@ -44,7 +44,7 @@ div:not(.swal2){
 body{
     position: relative;
     font-size: 16px;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background-color: rgb(24, 24, 24);
     color: #fff;
 }
