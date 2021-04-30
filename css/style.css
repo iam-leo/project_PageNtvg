@@ -10,7 +10,8 @@ html{
     position: relative;
     min-height: 100%;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden !important; 
+    overflow-y: scroll !important;   
 }
 
 /* Corregir estilos para no afectar los estilos propios de SweetAlert */
@@ -43,9 +44,9 @@ div:not(.swal2){
 }
 
 body{
-    position: fixed;
+    position: relative;
     font-size: 16px;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     background-color: rgb(24, 24, 24);
     color: #fff;
 }
