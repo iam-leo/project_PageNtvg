@@ -1,3 +1,8 @@
+const detector = new MobileDetect(window.navigator.userAgent);
+
+
+if(!detector.mobile() && !detector.tablet()){
+
 //Alerta principal sobre Spotify
 Swal.fire({
     icon: 'info',
@@ -11,6 +16,8 @@ Swal.fire({
       popup: 'animate__animated animate__fadeOutUp'
     }
   });
+
+}
 
 //MENU MOVIL
     //MOSTRAR / OCULTAR menu desde el boton
