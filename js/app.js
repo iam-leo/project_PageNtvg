@@ -77,7 +77,7 @@ function removerClaseActivo(){
 const discos = [
     //El orden de los objetos es en base a como aparecen en el html
     luz = {
-        lista: '<div class="proximamente"><h2> Próximamente </h2></div>'
+        lista: '<iframe src="https://open.spotify.com/embed/album/4C6joZxFL6lTg6tJDE9N6o" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
        },
     
     otrasCancionesEnVivo = {
